@@ -1,0 +1,170 @@
+ .container{
+    width: 1400px;
+    
+    
+ }
+
+nav{
+    display: flex;
+    margin-top: 30px ;
+    
+    
+}
+
+.logo{
+    margin-left: 169px;
+    width: 107px;
+    height: 26px;
+}
+
+.nav-item{
+    display: flex;
+    list-style: none;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: #939CAA;
+}
+.navlist{
+    margin-right: 20px;
+    font-style: bold;
+    font-size: 16px;
+}
+
+.get{
+    margin-left: 300px;
+    width: 152px;
+    height: 54px;
+    border: 1px solid #FCB72B;
+    background-color: #FCB72B;
+}
+
+
+
+
+.hero{
+    background: url('/img/Bitmap.jpg');
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 560px;
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    position: relative;
+}
+
+.hero-left{
+    margin-top: 80px;
+    width: 50%;
+    padding-top: 40px;
+}
+
+.hero-left>h2{
+    font-size: 56px;
+    color: #fff;
+    font-family: Space Mono;
+    font-style:Bold;
+    width: 500px;
+    height: 112px;
+    margin-left: 165px;
+}
+
+.hero-left>p{
+    width: 405px;
+    height: 100px;
+    margin-left: 260px;
+    margin-top: 30px;
+    font-size: 19px;
+    color: #fff;
+    font-style: inherit;
+}
+
+.hero-left>h3{
+    border: 1px solid #FCB72B;
+    width: 180px;
+    height: 50px;
+    margin-left: 260px;
+    margin-top: 40px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 24px;
+    background-color: #FCB72B;
+
+}
+.line{
+    position: absolute;
+    margin-top: 200px;
+}
+.line1{
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 40px;
+}
+
+
+
+ @media only screen and (max-width:768px) {
+  
+
+    .container{
+        width: 768px;
+    }
+    .logo{
+        margin-left: 10px;
+    }
+    .get{
+        margin-left: -10px;
+    }
+    .hero{
+       width: 768px;
+    }
+  
+    
+    .hero-left>h2{
+        width: 403px;
+       margin-top: -80px;
+       margin-left: 50%;
+       font-size: 44px;
+        
+        
+    }
+    .hero-left>p{
+        text-align: center;
+          margin-left: 50%;
+          margin-top: -7px;
+    }
+
+    .hero-left>h3{
+        font-size: 18px;
+        width: 140px;
+        height: 40px;
+        margin-left: 79%
+    }
+    .line{
+        display: none;
+    }
+
+    .line1{
+        margin-left: -550px;
+        margin-top: 240px;
+        
+    }
+ }
+
+ @media only screen and (max-width:390px) {
+
+    .text{
+        font-size: 10px;
+        width: 311px;
+      } 
+}
+
+
+
+
+
+

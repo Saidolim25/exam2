@@ -1,0 +1,98 @@
+
+
+
+
+
+
+.foot{
+    width: 1400px;
+    height: 400px;
+    background-image: url('/img/foot1.png');
+    margin: 0 auto;
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+
+.text{
+    color: #fff;
+    font-size: 48px;
+    width: 600px;
+    height: 96px;
+    padding-top: 30px;
+    padding-left: 160px;
+}
+
+.download{
+    padding-top: -200px;
+    padding-left: 800px;   
+}
+
+.lastfoot{
+    
+    background-image: url('/img/lastfoot.svg');
+    margin-top: 150px;
+    display: flex;
+    
+    height: 96px;
+    margin-top: -10;
+}
+.foot-item{
+    display: flex;
+    color: #fff;
+}
+
+.foot-list{
+    display: flex;
+    margin-left: 30px;
+    
+}
+.foot-list>h2{
+    margin-top: 25px;
+    font-size: 38px;
+}
+
+.foot-link{
+    margin-right: 60px;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 18px;
+}
+
+.logos{
+    margin-top: 40px;
+    margin-left: 620px;
+
+}
+
+@media only screen and (max-width:768px) {
+    .foot{
+        width: 768px;
+        background-image: url('/img/footer.jpg');
+        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .text{
+        font-size: 30px;
+        width: 500px;
+        margin-left: 90px;
+    }
+
+    .download{
+        margin-left: -550px;
+        margin-top: 100px;
+    }
+
+    .lastfoot{
+        margin-top: 0px;
+    }
+
+    .logos{
+        margin-left:-10px;
+    }
+}
+
+
+
